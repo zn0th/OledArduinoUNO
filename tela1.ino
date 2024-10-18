@@ -82,7 +82,7 @@ void setup(void) {
 
 void loop(void) {
   u8g2.clearBuffer();					// limpar a memoria
-  u8g2.drawXBMP(0, 0, 128, 64, epd_bitmap_FAZOL); // desenhar na tela tola 128x64 
+  u8g2.drawXBMP(0, 0, 128, 64, epd_bitmap_FAZOL); // desenhar na tela toda 128x64 
   u8g2.sendBuffer();					// transferir memória interna para o display
   delay(1000);  // 1 segundo de delay pra essa merda n explodir
 }
